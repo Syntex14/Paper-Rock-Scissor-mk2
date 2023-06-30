@@ -1,0 +1,47 @@
+header {
+    background-color: khaki;
+
+}
+
+body {
+    
+}
+
+img {
+    height: 65px;
+    width: 65px;
+}
+
+.main-body {
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.results {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    gap: 60px;
+}
+
+.selection-boxes {
+   display: flex; 
+   text-align: center;
+   width: 600px;
+    
+}
+
+.rock, .paper, .scissor {
+   flex: 1; 
+}
+
+.player-results, .computer-results {
+    text-align: center;
+}
+
+
+footer {
+    background-color: khaki;
+}
